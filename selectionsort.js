@@ -40,4 +40,6 @@ function selection(){
 	}
 	div_update(divs[i],div_sizes[i],"green");
 
+	c_delay=0;
+
 }

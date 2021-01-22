@@ -4,10 +4,11 @@ var array_s = document.getElementById("a_size");
 var speed=document.getElementById("myRangespeed");
 var output=document.getElementById("demo");
 var arr_speed=document.getElementById("demo1");
-var startsort=document.getElementById("start");
-var startselection=document.getElementById("selection");
-
-
+var sort1=document.getElementById("start");
+var sort2=document.getElementById("selection");
+var sort3=document.getElementById("insertion");
+var sort4=document.getElementById("mergesort");
+var sort5=document.getElementById("quicksort");
 
 
 
@@ -66,8 +67,12 @@ function updatearray(){
 
 
 
-startsort.addEventListener("click",sortfunction);
-startselection.addEventListener("click",selections);
+sort1.addEventListener("click",sortfunction);
+sort2.addEventListener("click",selections);
+sort3.addEventListener("click",insertions);
+sort4.addEventListener("click",merge1);
+sort5.addEventListener("click",quicks);
+
 
 function sortfunction(){
 
@@ -75,11 +80,29 @@ bubble();
 
 }
 
-
-
 function selections(){
 	selection();
 }
+
+
+function insertions(){
+	insertion();
+}
+
+function merge1(){
+	//merge.style="background-color:blue";
+	Merge_fun();
+}
+function quicks(){
+	quick();
+}
+
+
+
+
+
+
+
 
 
 
