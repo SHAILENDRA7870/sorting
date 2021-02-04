@@ -3,6 +3,8 @@ function quick(){
 	c_delay=0;
 
     quick_sort(0,array_len-1);
+	
+	c_delay=0;
 
 
 }
