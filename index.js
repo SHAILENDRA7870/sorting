@@ -101,19 +101,8 @@ function quicks(){
 
 
 
-
-
-
-
-
-if (speed.value==1)
-{
-var speed=100;
-}
-
-else{
 	var speed=1000;
-}
+
 
 var delay_time=(10000/(Math.floor(array_len/10)*speed));
 
