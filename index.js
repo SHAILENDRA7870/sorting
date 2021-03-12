@@ -12,12 +12,12 @@ var sort5=document.getElementById("quicksort");
 
 
 
-
+/*
 arr_speed.innerHTML=speed.value;
 speed.oninput=function(){
 	arr_speed.innerHTML=this.value;
 }
-
+*/
 
 
 
